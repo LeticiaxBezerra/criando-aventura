@@ -1,0 +1,76 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Um  dia desses, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga que contava sobre mundos de seres mágicos que precisavam da salvação de um ser de outra dimensão. Abri o livro e comecei a ficar mais curiosa!</p>
+            <button class="btn-proximo" data-proximo="1">Slyphariel</button> 
+            <button class="btn-proximo" data-proximo="2">Lunaflora</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p> Você decide começar sua jornada pela Montanha de Esmeraldar, uma montanha cheia de mistérios porém com uma luz exuberante vindo de dentro dela. Então você: </p>
+            <button class="btn-proximo" data-proximo="3"> Você decide entrar na caverna, guiado pela luz brilhante </button>
+            <button class="btn-proximo" data-proximo="4"> Você decide não entrar na Montanha devido a luz suspeita que ela emanava. </button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você morre porque era uma montanha de fadas comedoras de gente.</p>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você entra na caverna, que na verdade, era uma armadilha de goblins para atrair sua atenção. Quando você entra, uma luz muito forte interrompe sua visão com um flash branca muito forte, e você perde a memória e acorda na sua cama. Você não completou a aventura.</p>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4-voltar-casa.png" alt="imagem descobrindo um vilarejo de gnomos">
+            <p>Você decide não entrar na caverna e assim, é guiado pela música que vinha da cidade ao lado. Você descobre uma cidade de gnomos que estava em festa devido a chegada de um guardião de outro mundo. Você se sente meio perdido mas a música está te contagiando, então você decide: </p>
+            <button class="btn-proximo" data-proximo="6"> Pedir ajuda para o aldeões gnomos. </button>
+            <button class="btn-proximo" data-proximo="5"> Continuar seu caminho sozinho, confiando na sua coragem apenas.</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p> Você acaba seguindo o caminho pela floresta e se perde. Você não consegue encontrar um caminho de volta, mas você está se esforçando e recebe uma nova chance: </p>
+            <button class="btn-proximo" data-proximo="4"> Voltar para o vilarejo</button>
+            <button class="btn-proximo" data-proximo="7"> Morrer ali mesmo. </button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você morreu. </p>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você adentra o vilarejo e pergunta a um gnomo o que eles estão comemorando. O gnomo mestre diz que estão comemorando que um guardião veio para trazer a paz no mundo. E que por coincidência ele se parecia muito com você! Você é o guardião deles! Ele entaõ te faz uma proposta difícil.  </p>
+            <button class="btn-proximo" data-proximo="8">Permanecer no vilarejo e se tornar o guardião deles</button>
+            <button class="btn-proximo" data-proximo="9">Ser enviado novamente para casa.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você acorda no conforto de sua cama, e se questiona se tudo foi apenas um sonho ou se você estava alucinando, mas agora você nunca saberá...</p>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p> Os gnomos te carregam até o palácio, que se encontrava vazio, estando pronto apenas para a sua aclamada chegada. Tudo é muito bonito e muito bem arrumado. Os gnomos estão animados e querem saber qual será sua primeira lei. </p>
+            <button class="btn-proximo" data-proximo="10">Explorar as terras dos inimigos.</button>
+            <button class="btn-proximo" data-proximo="11"> Explorar terras sem dono.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você explora terra inimiga e todos vocês são atacados. Vocẽ causou uma guerra civil e não foi um bom guardião!</p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="cenario-passo11-cidade-perdida.png" alt="encontrando um reino adormecido.">
+         <p> Vocês desbravam terras sem donos e descobrem um reino adormecido com muitas riquezas! Agora tudo lhe pertence! Você se tornou um ótimo guardião e salvou a vida de todos os gnomos! Parabéns!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
